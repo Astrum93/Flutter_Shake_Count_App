@@ -133,6 +133,8 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
         break;
       case AppLifecycleState.detached:
         break;
+      case AppLifecycleState.hidden:
+        // TODO: Handle this case.
     }
   }
 }
